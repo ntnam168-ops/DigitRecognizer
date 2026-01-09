@@ -47,9 +47,18 @@ This project is a **handwritten digit recognition** system using a **Convolution
 
 ---
 
-## Requirements
+## Optional: Use a Virtual Environment & How to Run
 
-- Python 3.11+  
-- Packages:
-  ```bash
-  pip install tensorflow numpy matplotlib
+```bash
+# 1. Create and activate virtual environment (optional but recommended)
+python -m venv venv
+.\venv\Scripts\activate
+
+# 2. Install required packages
+pip install tensorflow numpy matplotlib
+
+# 3. Train the model
+python train.py
+
+# 4. Test the model
+python test.py
